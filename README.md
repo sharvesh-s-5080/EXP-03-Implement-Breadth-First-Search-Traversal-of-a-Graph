@@ -21,15 +21,12 @@ To do this, a queue is used. All the adjacent unvisited nodes of the current lev
 queue, and the current-level nodes are marked visited and popped from the queue. 
 Illustration: 
 Let us understand the working of the algorithm with the help of the following example. 
+
 Step1: Initially queue and visited arrays are empty.
 <img width="681" height="286" alt="image" src="https://github.com/user-attachments/assets/5872b545-43d7-4b7a-8d53-fc3b06287d2d" />
 
-Queue and visited arrays are empty initially. 
-
 <B>Step2: Push node 0 into queue and mark it visited. </b>
 <img width="657" height="282" alt="image" src="https://github.com/user-attachments/assets/2e7d7fea-e0a5-4dfe-a2fd-310ea99972cf" />
-
-Push node 0 into queue and mark it visited. 
 
 <B> Step 3: Remove node 0 from the front of queue and visit the unvisited neighbours and push them into 
 queue. </B>
@@ -43,8 +40,6 @@ queue. </B>
 <B>Step 5: Remove node 2 from the front of queue and visit the unvisited neighbours and push them into 
 queue. </B>
 <img width="703" height="260" alt="image" src="https://github.com/user-attachments/assets/1fe9225d-7244-4574-b93a-1044f6f302ad" />
-
-Remove node 2 from the front of queue and visit the unvisited neighbours and push them into queue. 
 
 <B>Step 6: Remove node 3 from the front of queue and visit the unvisited neighbours and push them into 
 queue.  </B>
@@ -110,7 +105,7 @@ print(traversedpath)
 
 <hr>
 <h3>Sample Input</h3>
-<hr>
+
 7 9 <BR>
 A B <BR>
 A C <BR>
@@ -123,7 +118,7 @@ D G <BR>
 G F <BR>
 <hr>
 <h3>Sample Output</h3>
-<hr>
+
 ['A', 'B', 'C', 'F', 'E', 'D', 'G']
 
 <hr>
@@ -134,7 +129,7 @@ G F <BR>
 
 <hr>
 <h3>Sample Input</h3>
-<hr>
+
 5 6 <BR>
 0 1 <BR>
 0 2 <BR>
@@ -151,8 +146,8 @@ G F <BR>
 ## OUTPUT
 
 <img width="400" height="252" alt="image" src="https://github.com/user-attachments/assets/4834ba63-1f2c-4648-b580-54d7d360a6fc" />
-
-<h3>Result:</h3>
 <hr>
+<h3>Result:</h3>
+
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph
   was done successfully.</p>
